@@ -1,0 +1,41 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "unpkg",
+      "library": "@aspnet/signalr@1.1.0",
+      "destination": "wwwroot/lib/signalr/",
+      "files": [
+        "dist/browser/signalr.js",
+        "dist/browser/signalr.min.js",
+        "dist/esm/AbortController.d.ts",
+        "dist/esm/browser-index.d.ts",
+        "dist/esm/DefaultHttpClient.d.ts",
+        "dist/esm/Errors.d.ts",
+        "dist/esm/HandshakeProtocol.d.ts",
+        "dist/esm/HttpClient.d.ts",
+        "dist/esm/HttpConnection.d.ts",
+        "dist/esm/HubConnection.d.ts",
+        "dist/esm/HubConnectionBuilder.d.ts",
+        "dist/esm/IConnection.d.ts",
+        "dist/esm/IHttpConnectionOptions.d.ts",
+        "dist/esm/IHubProtocol.d.ts",
+        "dist/esm/ILogger.d.ts",
+        "dist/esm/index.d.ts",
+        "dist/esm/ITransport.d.ts",
+        "dist/esm/JsonHubProtocol.d.ts",
+        "dist/esm/Loggers.d.ts",
+        "dist/esm/LongPollingTransport.d.ts",
+        "dist/esm/NodeHttpClient.d.ts",
+        "dist/esm/Polyfills.d.ts",
+        "dist/esm/ServerSentEventsTransport.d.ts",
+        "dist/esm/Stream.d.ts",
+        "dist/esm/TextMessageFormat.d.ts",
+        "dist/esm/Utils.d.ts",
+        "dist/esm/WebSocketTransport.d.ts",
+        "dist/esm/XhrHttpClient.d.ts"
+      ]
+    }
+  ]
+}
